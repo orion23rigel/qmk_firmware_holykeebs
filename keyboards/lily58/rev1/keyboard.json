@@ -1,8 +1,8 @@
 {
-    "keyboard_name": "Lily58",
-    "manufacturer": "liliums",
+    "keyboard_name": "Orion Lily58",
+    "manufacturer": "Orion",
     "url": "",
-    "maintainer": "liliums",
+    "maintainer": "Orion",
     "usb": {
         "vid": "0x04D8",
         "pid": "0xEB2D",

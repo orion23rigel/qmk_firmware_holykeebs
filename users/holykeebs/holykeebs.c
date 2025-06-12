@@ -69,9 +69,9 @@ static void write_eeconfig(void) {
 }
 
 static void hk_configure_tps43_common(hk_pointer_state_t* state) {
-    state->pointer_default_multiplier = 1.25;
+    state->pointer_default_multiplier = 0.7;
     state->pointer_sniping_multiplier = 1.0;
-    state->pointer_scroll_buffer_size = 5;
+    state->pointer_scroll_buffer_size = 30;
 }
 
 static void hk_configure_pimoroni_common(hk_pointer_state_t* state) {
@@ -97,9 +97,9 @@ static hk_state_t init_state(void) {
         .init = true,
         .dirty = false,
         .is_main_side = is_keyboard_master(),
-        .setting_default_scale = false,
-        .setting_sniping_scale = false,
-        .setting_scroll_buffer = false,
+        .setting_default_scale = true,
+        .setting_sniping_scale = true,
+        .setting_scroll_buffer = true,
         .main = {
             .pointer_kind = POINTER_KIND_NONE,
             .cursor_mode = CURSOR_MODE_DEFAULT,

@@ -28,8 +28,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
+#define DYNAMIC_KEYMAP_LAYER_COUNT 10
 #define QUICK_TAP_TERM 0
-#define TAPPING_TERM 100
+#define TAPPING_TERM 200
+#define FLOW_TAP_TERM 150
 
 // Underglow
 /*

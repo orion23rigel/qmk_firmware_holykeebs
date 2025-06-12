@@ -9,7 +9,7 @@ ifeq ($(strip $(CONSOLE)), yes)
 	CONSOLE_ENABLE = yes
 endif
 
-TRI_LAYER_ENABLE = yes
+TRI_LAYER_ENABLE = no
 EXTRAKEY_ENABLE = yes
 MOUSEKEY_ENABLE = yes
 SERIAL_DRIVER = vendor
